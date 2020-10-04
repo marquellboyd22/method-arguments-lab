@@ -1,0 +1,57 @@
+irb
+2.6.1 :010 > def say_anthing_x_times(phrase, x)
+2.6.1 :011?>   x.times do
+2.6.1 :012 >                   puts phrase
+2.6.1 :013?>     end
+2.6.1 :014?>   end
+ => :say_anthing_x_times 
+2.6.1 :015 > say_anything_x_times("HeyQ" , 10)
+Traceback (most recent call last):
+        4: from /Users/shootermugavien/.rvm/rubies/ruby-2.6.1/bin/irb:23:in `<main>'
+        3: from /Users/shootermugavien/.rvm/rubies/ruby-2.6.1/bin/irb:23:in `load'
+        2: from /Users/shootermugavien/.rvm/rubies/ruby-2.6.1/lib/ruby/gems/2.6.0/gems/irb-1.0.0/exe/irb:11:in `<top (required)>'
+        1: from (irb):15
+NoMethodError (undefined method `say_anything_x_times' for main:Object)
+Did you mean?  say_anthing_x_times
+2.6.1 :016 > say_anthing_x_times("heyq" , 10)
+heyq
+heyq
+heyq
+heyq
+heyq
+heyq
+heyq
+heyq
+heyq
+heyq
+ => 10 
+2.6.1 :017 > say_anything_x_times("Eagles" , 20)
+Traceback (most recent call last):
+        4: from /Users/shootermugavien/.rvm/rubies/ruby-2.6.1/bin/irb:23:in `<main>'
+        3: from /Users/shootermugavien/.rvm/rubies/ruby-2.6.1/bin/irb:23:in `load'
+        2: from /Users/shootermugavien/.rvm/rubies/ruby-2.6.1/lib/ruby/gems/2.6.0/gems/irb-1.0.0/exe/irb:11:in `<top (required)>'
+        1: from (irb):17
+NoMethodError (undefined method `say_anything_x_times' for main:Object)
+Did you mean?  say_anthing_x_times
+2.6.1 :018 > say_anthing_x_times("eagles" , 20)
+eagles
+eagles
+eagles
+eagles
+eagles
+eagles
+eagles
+eagles
+eagles
+eagles
+eagles
+eagles
+eagles
+eagles
+eagles
+eagles
+eagles
+eagles
+eagles
+eagles
+ => 20 
